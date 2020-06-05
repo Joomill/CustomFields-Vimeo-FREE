@@ -64,7 +64,12 @@
 				type="pro"
 				label="PLG_FIELDS_VIMEO_PARAMS_COLOR_LABEL"
 				description="PLG_FIELDS_VIMEO_PARAMS_COLOR_DESC" 
-			/>	
+			/>
+
+			<field
+				name=""
+				type="upgrade"
+			/>
 			
 		</fieldset>
 	</fields>
