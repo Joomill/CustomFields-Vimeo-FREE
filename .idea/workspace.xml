@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="98f19bbf-be64-4d12-931c-e01902f2055d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/elements/upgrade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/params/vimeo.xml" beforeDir="false" afterPath="$PROJECT_DIR$/params/vimeo.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vimeo.xml" beforeDir="false" afterPath="$PROJECT_DIR$/vimeo.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vimeo.php" beforeDir="false" afterPath="$PROJECT_DIR$/vimeo.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +62,9 @@
       <updated>1591374309324</updated>
       <workItem from="1591374310629" duration="4839000" />
       <workItem from="1591382504330" duration="224000" />
-      <workItem from="1591382826215" duration="1248000" />
+      <workItem from="1591382826215" duration="1263000" />
+      <workItem from="1591384638908" duration="270000" />
+      <workItem from="1591384928847" duration="60000" />
     </task>
     <task id="LOCAL-00001" summary="V1.2.0 - Compatible with Joomla 4 Beta - Namespaces">
       <created>1591379237539</created>
@@ -80,7 +80,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591379256610</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="V1.2.0 - Upgrade message">
+      <created>1591384252893</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1591384252893</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -88,7 +95,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="V1.2.0 - Compatible with Joomla 4 Beta - Namespaces" />
-    <option name="LAST_COMMIT_MESSAGE" value="V1.2.0 - Compatible with Joomla 4 Beta - Namespaces" />
+    <MESSAGE value="V1.2.0 - Upgrade message" />
+    <option name="LAST_COMMIT_MESSAGE" value="V1.2.0 - Upgrade message" />
   </component>
   <component name="WindowStateProjectService">
     <state x="873" y="359" key="#Deployment" timestamp="1591377317522">
@@ -103,10 +111,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1029" y="565" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.2560.1400@0.0.2560.1400" timestamp="1591383644085" />
-    <state x="904" y="288" key="CommitChangelistDialog2" timestamp="1591379256049">
+    <state x="904" y="288" key="CommitChangelistDialog2" timestamp="1591384252163">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="904" y="288" key="CommitChangelistDialog2/0.0.2560.1400@0.0.2560.1400" timestamp="1591379256049" />
+    <state x="904" y="288" key="CommitChangelistDialog2/0.0.2560.1400@0.0.2560.1400" timestamp="1591384252163" />
     <state x="1061" y="455" key="FileChooserDialogImpl" timestamp="1591382851010">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -115,9 +123,9 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="782" y="346" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1591377545913" />
-    <state x="873" y="434" key="Vcs.Push.Dialog.v2" timestamp="1591379239713">
+    <state x="873" y="434" key="Vcs.Push.Dialog.v2" timestamp="1591384254301">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="873" y="434" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1591379239713" />
+    <state x="873" y="434" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1591384254301" />
   </component>
 </project>
