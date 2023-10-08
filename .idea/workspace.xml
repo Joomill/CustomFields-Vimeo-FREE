@@ -1,12 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="98f19bbf-be64-4d12-931c-e01902f2055d" name="Default Changelist" comment="V1.2.0 - Upgrade message">
+    <list default="true" id="98f19bbf-be64-4d12-931c-e01902f2055d" name="Default Changelist" comment="V4.0.0 - First Commit">
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/elements/pro.php" beforeDir="false" afterPath="$PROJECT_DIR$/elements/pro.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/elements/upgrade.php" beforeDir="false" afterPath="$PROJECT_DIR$/elements/upgrade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/language/en-GB.plg_fields_vimeo.ini" beforeDir="false" afterPath="$PROJECT_DIR$/language/plg_fields_vimeo.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/language/en-GB.plg_fields_vimeo.sys.ini" beforeDir="false" afterPath="$PROJECT_DIR$/language/plg_fields_vimeo.sys.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/language/plg_fields_vimeo.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/language/plg_fields_vimeo.sys.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/params/vimeo.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/script.php" beforeDir="false" afterPath="$PROJECT_DIR$/script.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmpl/vimeo.php" beforeDir="false" afterPath="$PROJECT_DIR$/tmpl/vimeo.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vimeo.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/vimeo.xml" beforeDir="false" afterPath="$PROJECT_DIR$/vimeo.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -27,11 +32,14 @@
     <joomlaConfigPath>D:\wamp64\www\dev\joomla3-free\configuration.php</joomlaConfigPath>
     <joomlaPath>D:\wamp64\www\dev\joomla3-free</joomlaPath>
   </component>
-  <component name="PhpWorkspaceProjectConfiguration">
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="D:\wamp64\bin\php\php8.1.0\php.exe">
     <include_path>
       <path value="$PROJECT_DIR$/../../../joomla3-free" />
     </include_path>
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 1
+}]]></component>
   <component name="ProjectId" id="1cuN2Kv6pGzpRB0SVrG045AqjFF" />
   <component name="ProjectViewState">
     <option name="autoscrollToSource" value="true" />
@@ -39,20 +47,19 @@
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/elements" />
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="copyright.profiles" />
-    <property name="vue.rearranger.settings.migration" value="true" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "WebServerToolWindowFactoryState": "true",
+    "git-widget-placeholder": "master",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\wamp64\www\dev\extensions\FREE\plg_fields_vimeo\elements" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\wamp64\www\dev\extensions\CustomFields-Vimeo-FREE\params" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -76,6 +83,9 @@
       <workItem from="1628610400121" duration="13000" />
       <workItem from="1628610577363" duration="10000" />
       <workItem from="1628615807249" duration="10000" />
+      <workItem from="1628618982172" duration="16000" />
+      <workItem from="1628622665381" duration="5000" />
+      <workItem from="1696777714041" duration="129000" />
     </task>
     <task id="LOCAL-00001" summary="V1.2.0 - Compatible with Joomla 4 Beta - Namespaces">
       <created>1591379237539</created>
@@ -98,7 +108,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591384252893</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="V4.0.0 - First Commit">
+      <created>1628618992790</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1628618992790</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -114,41 +131,11 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="V1.2.0 - Compatible with Joomla 4 Beta - Namespaces" />
     <MESSAGE value="V1.2.0 - Upgrade message" />
-    <option name="LAST_COMMIT_MESSAGE" value="V1.2.0 - Upgrade message" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="873" y="359" key="#Deployment" timestamp="1591377317522">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="873" y="359" key="#Deployment/0.0.2560.1400@0.0.2560.1400" timestamp="1591377317522" />
-    <state x="1122" y="592" width="316" height="231" key="#Joomla!" timestamp="1591382853162">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="1122" y="592" width="316" height="231" key="#Joomla!/0.0.2560.1400@0.0.2560.1400" timestamp="1591382853162" />
-    <state x="1029" y="565" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1591383644085">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="1029" y="565" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.2560.1400@0.0.2560.1400" timestamp="1591383644085" />
-    <state x="904" y="288" key="CommitChangelistDialog2" timestamp="1591384252163">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="904" y="288" key="CommitChangelistDialog2/0.0.2560.1400@0.0.2560.1400" timestamp="1591384252163" />
-    <state x="1061" y="455" key="FileChooserDialogImpl" timestamp="1591382851010">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="1061" y="455" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1591382851010" />
-    <state x="782" y="346" key="SettingsEditor" timestamp="1591377545913">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="782" y="346" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1591377545913" />
-    <state x="873" y="434" key="Vcs.Push.Dialog.v2" timestamp="1591384254301">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="873" y="434" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1591384254301" />
+    <MESSAGE value="V4.0.0 - First Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="V4.0.0 - First Commit" />
   </component>
 </project>

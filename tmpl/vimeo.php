@@ -1,7 +1,7 @@
 <?php
-/**
+/*
  *  package: Custom Fields - Vimeo plugin - FREE Version
- *  copyright: Copyright (c) 2020. Jeroen Moolenschot | Joomill
+ *  copyright: Copyright (c) 2023. Jeroen Moolenschot | Joomill
  *  license: GNU General Public License version 3 or later
  *  link: https://www.joomill-extensions.com
  */
@@ -15,6 +15,6 @@ $height = $fieldParams->get('video_height','300px');
 
 if ($value == '')
 {
-	return;
+    return;
 }
 echo '<iframe src="//player.vimeo.com/video/' . $value . '" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>';
