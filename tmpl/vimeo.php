@@ -9,6 +9,12 @@
 // No direct access.
 defined('_JEXEC') or die;
 
+use Joomla\CMS\Factory;
+
+//add stylesheet for responsive container
+$document = Factory::getApplication()->getDocument();
+$document->addStylesheet('plugins/fields/vimeo/tmpl/style.css');
+
 $value = $field->value;
 $width = $fieldParams->get('video_width', '100%');
 $height = $fieldParams->get('video_height', '300px');
