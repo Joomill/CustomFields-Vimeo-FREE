@@ -3,7 +3,7 @@
     <fields name="fieldparams">
         <fieldset
                 name="fieldparams"
-                addfieldpath="/plugins/fields/vimeo/elements"
+                addfieldprefix="Joomill\Plugin\Fields\Vimeo\Field"
         >
 
             <field
