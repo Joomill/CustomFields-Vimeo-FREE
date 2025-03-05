@@ -13,8 +13,6 @@ use Joomla\CMS\Form\Field\ListField;
 use Joomla\CMS\Form\FormHelper;
 use Joomla\CMS\Language\Text;
 
-;
-
 FormHelper::loadFieldClass('list');
 
 class JFormFieldPRO extends ListField
@@ -23,7 +21,8 @@ class JFormFieldPRO extends ListField
 
     protected function getInput()
     {
-        $text = Text::_('PLG_FIELDS_VIMEO_PARAMS_PRO_ONLY');
+        $text = Text::_('PLG_FIELDS_VIMEO_PRO_ONLY');
+
         return
             '<code>' . $text . '</code>';
     }
